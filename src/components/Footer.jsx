@@ -19,8 +19,8 @@ function Footer() {
           <a href="#home" className="hover:text-purple-400 transition">Home</a>
           <a href="#about" className="hover:text-purple-400 transition">About</a>
           <a href="#projects" className="hover:text-purple-400 transition">Projects</a>
-          <a href="https://github.com" target="_blank" rel="noreferrer" className="hover:text-purple-400 transition">GitHub</a>
-          <a href="https://csmart1.github.io/travel-better/index.html" target="_blank" rel="noreferrer" className="hover:text-purple-400 transition">LinkedIn</a>
+          <a href="https://github.com/Csmart1/RalphX" target="_blank" rel="noreferrer" className="hover:text-purple-400 transition">GitHub</a>
+          <a href="https://www.linkedin.com/in/raphael-ani-5777303b3/" target="_blank" rel="noreferrer" className="hover:text-purple-400 transition">LinkedIn</a>
         </div>
         
       </div>
