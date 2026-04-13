@@ -6,7 +6,7 @@ function Hero() {
   return (
     <section
       id="home"
-      className="min-h-screen flex items-center px-10 scroll-mt-24"
+      className="min-h-[85vh] flex flex-col justify-between px-10 scroll-mt-24"
     >
       <motion.div
         initial={{ opacity: 0, y: 40 }}
@@ -47,23 +47,25 @@ function Hero() {
               Contact Me
             </a>
           </div>
+
         </div>
 
         <div className="relative mt-10 md:mt-0 flex-1 flex justify-center">
-          {/* The Glow Effect */}
           <div className="absolute inset-0 bg-purple-600 opacity-20 blur-[100px] rounded-full"></div>
 
           <motion.img
-            // Adding a subtle float animation to make it feel "premium"
             animate={{ y: [0, -15, 0] }}
             transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
             src={ProfileImg}
             alt="Ralph"
-            // Use max-w to ensure it doesn't get TOO big, but stays large
             className="relative w-full max-w-[500px] md:max-w-[600px] h-auto object-contain drop-shadow-2xl"
           />
         </div>
       </motion.div>
+
+      <div className="flex justify-left mt-10 pb-4">
+        <div className="text-gray-500 text-sm animate-bounce">↓ Scroll</div>
+      </div>
     </section>
   );
 }

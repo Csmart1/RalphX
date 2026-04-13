@@ -13,7 +13,7 @@ function Navbar() {
 
   return (
     <nav className="flex items-center justify-between px-6 md:px-10 py-6 w-full bg-transparent z-10 relative z-10">
-      {/* 1. UNIQUE LOGO DESIGN */}
+    
       <div className="flex-1">
         <a href="#home" className="group flex items-center gap-1">
           <span className="text-2xl font-black tracking-tighter text-white">
@@ -26,7 +26,7 @@ function Navbar() {
         </a>
       </div>
 
-      {/* 2. DESKTOP NAV (Hidden on Mobile) */}
+      
       <div className="hidden md:flex flex-1 justify-center gap-8">
         {navLinks.map((link) => (
           <a
@@ -40,7 +40,7 @@ function Navbar() {
         ))}
       </div>
 
-      {/* RESTORED ORIGINAL CTA STYLE */}
+     
       <div className="hidden md:flex flex-1 justify-end">
         <a
           href="/Resume.pdf.pdf"
@@ -74,7 +74,7 @@ function Navbar() {
         ></span>
       </button>
 
-      {/* SIDEBAR (80% Width, Left Aligned) */}
+     
       <AnimatePresence>
         {isOpen && (
           <>

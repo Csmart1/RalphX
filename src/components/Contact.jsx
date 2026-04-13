@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { useForm, ValidationError } from "@formspree/react";
 
 function Contact() {
-  // Use your actual Formspree ID: xjgpooee
+ 
   const [state, handleSubmit] = useForm("xjgpooee");
 
   if (state.succeeded) {

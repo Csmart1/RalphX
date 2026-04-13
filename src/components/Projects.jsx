@@ -12,7 +12,7 @@ function Projects() {
       initial={{ opacity: 0, y: 60 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8, ease: "easeOut" }}
-      viewport={{ once: true, amount: 0.3 }}
+      viewport={{ once: true, amount: 0.1 }}
     >
       <div className="max-w-6xl mx-auto w-full">
         <h2 className="text-3xl md:text-4xl font-semibold mb-12">Projects</h2>
@@ -66,7 +66,7 @@ function Projects() {
             </div>
           </div>
 
-          {/* Project Card 2 */}
+         
           <div className="border border-gray-800 rounded-xl overflow-hidden hover:scale-[1.02] transition duration-300">
             <a
               href="//weather-sky-ralphx.vercel.app/"
@@ -110,7 +110,7 @@ function Projects() {
             </div>
           </div>
 
-          {/* Project Card 3 */}
+        
           <div className="border border-gray-800 rounded-xl overflow-hidden hover:scale-[1.02] transition duration-300">
             <a
               href="https://csmart1.github.io/Memory-game/"
@@ -154,7 +154,7 @@ function Projects() {
             </div>
           </div>
 
-          {/* Project Card 4 */}
+        
           <div className="border border-gray-800 rounded-xl overflow-hidden hover:scale-[1.02] transition duration-300">
             <a
               href="https://csmart1.github.io/travel-better/"

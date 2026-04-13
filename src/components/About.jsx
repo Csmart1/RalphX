@@ -12,7 +12,7 @@ function About() {
       viewport={{ once: true, amount: 0.3 }}
     >
       <div className="max-w-6xl mx-auto w-full grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-        {/* TEXT SIDE */}
+       
         <div>
           <p className="text-purple-400 tracking-widest uppercase text-sm mb-4">
             About Me
