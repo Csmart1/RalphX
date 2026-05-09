@@ -16,7 +16,7 @@ function Hero() {
       >
         <div className="max-w-xl">
           <p className="text-purple-400 mb-4 tracking-widest uppercase text-sm">
-            Frontend Developer
+            Full-Stack Developer
           </p>
 
           <h1 className="text-4xl md:text-6xl font-semibold leading-[1.1] tracking-tight">
@@ -28,8 +28,10 @@ function Hero() {
           </h1>
 
           <p className="mt-6 text-gray-400">
-            I build responsive, visually refined applications with a focus on
-            performance and user experience.
+            I bridge the gap between high-end design and complex technical
+            architecture. By building responsive, visually refined applications
+            supported by solid backend logic, I create end-to-end solutions that
+            drive performance and user engagement.
           </p>
 
           <div className="mt-8 flex gap-4">
@@ -47,7 +49,6 @@ function Hero() {
               Contact Me
             </a>
           </div>
-
         </div>
 
         <div className="relative mt-10 md:mt-0 flex-1 flex justify-center">

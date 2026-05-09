@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Restaurant from "../assets/Restaurant.jpg.png";
-import Travel from "../assets/Travel.jpg.png";
+import Chikinimonie from "../assets/Chikinimonie.png";
 import Weather from "../assets/Weather.jpg.png";
 import Game from "../assets/Game.jpg.png";
 function Projects() {
@@ -33,11 +33,11 @@ function Projects() {
 
             <div className="p-6">
               <h3 className="text-xl font-semibold mb-2">
-                Michelin Restaurant UI
+                La Notte: Restaurant UI
               </h3>
 
               <p className="text-gray-400 mb-4">
-                A premium restaurant UI inspired by Michelin-style presentation.
+               La Notte is a premium frontend project designed to capture the sophisticated atmosphere of a high-end Italian restaurant. Built using HTML, CSS, and Javascript, the application features a cinematic dark aesthetic with gold accents to reflect a sense of excellence and luxury. The design focuses on high-impact visual storytelling, utilizing a clean, modern layout to showcase curated menus and reservation calls-to-action. By prioritizing technical precision and responsive design, I created a professional digital experience that aligns with a Michelin-star quality brand identity.
               </p>
 
               <p className="text-sm text-purple-400 mb-4">
@@ -82,8 +82,7 @@ function Projects() {
             <div className="p-6">
               <h3 className="text-xl font-semibold mb-2">Weather App</h3>
               <p className="text-gray-400 mb-4">
-                Real-time weather application using API integration and dynamic
-                UI updates.
+                Weather Now is a high-performance weather application built with React and Tailwind CSS that delivers accurate, real-time meteorological data. By integrating the Open-Meteo API, the platform provides users with detailed current conditions, hourly breakdowns, and a comprehensive seven-day forecast. The application features advanced data visualization for key metrics including wind speed, humidity, and precipitation probability, all housed within a modern, dark-themed interface optimized for readability. I prioritized clean API integration and responsive design to ensure a seamless experience across all devices while maintaining high technical performance and data accuracy.
               </p>
               <p className="text-sm text-purple-400 mb-4">
                 React • API Integration • Tailwind CSS
@@ -126,8 +125,7 @@ function Projects() {
             <div className="p-6">
               <h3 className="text-xl font-semibold mb-2">Memory Game</h3>
               <p className="text-gray-400 mb-4">
-                Interactive memory game built with JavaScript logic and DOM
-                manipulation.
+                This project is a web-based memory game inspired by the classic Simon game, designed to test and improve cognitive recall. Developed using HTML, CSS, and vanilla JavaScript, the application relies heavily on complex DOM manipulation and event-driven programming to manage real-time game states. I engineered the core logic to generate increasingly difficult randomized sequences, requiring the system to validate user input against stored arrays while providing immediate visual and auditory feedback. By focusing on clean code architecture and seamless user interaction, I created an engaging, responsive experience that demonstrates a strong mastery of fundamental web technologies and algorithmic thinking.
               </p>
               <p className="text-sm text-purple-400 mb-4">
                 JavaScript • DOM Logic
@@ -157,31 +155,30 @@ function Projects() {
         
           <div className="border border-gray-800 rounded-xl overflow-hidden hover:scale-[1.02] transition duration-300">
             <a
-              href="https://csmart1.github.io/travel-better/"
+              href="https://chikinimonie-web.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
             >
               <img
-                src={Travel}
+                src={Chikinimonie}
                 className="w-full h-64 md:h-72 object-cover object-top transition-transform duration-500 group-hover:scale-110"
               />
             </a>
 
             <div className="p-6">
               <h3 className="text-xl font-semibold mb-2">
-                Travel Agency Website
+                Chikinimonie
               </h3>
               <p className="text-gray-400 mb-4">
-                Modern travel landing page with dwith contact page for booking
-                UI.
+               The Chikinimonie project is a high-end restaurant web application that blends cinematic design with practical business logic. Developed using Next.js and Tailwind CSS, the platform features a custom-engineered ordering system that integrates directly with WhatsApp, capturing user selections and converting them into structured messages for the business. To support real-world dining operations, I implemented table-tracking functionality using URL query parameters to automatically identify customer locations. The result is a professional, high-performance solution that bridges the gap between sophisticated frontend aesthetics and functional operational tools.
               </p>
               <p className="text-sm text-purple-400 mb-4">
-                HTML • CSS • JavaScript
+                Next.js • Tailwind CSS 
               </p>
 
               <div className="flex gap-4 text-sm">
                 <a
-                  href="https://csmart1.github.io/travel-better/"
+                  href="https://chikinimonie-web.vercel.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-purple-400 hover:underline"

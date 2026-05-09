@@ -24,7 +24,7 @@ function About() {
           </h2>
 
           <p className="mt-6 text-gray-400 leading-relaxed">
-            I am a frontend developer focused on creating clean, responsive and
+            I am a full-stack developer focused on creating clean, responsive and
             user-friendly web applications. I enjoy turning ideas into real
             products that feel smooth, modern, and intentional.
           </p>
