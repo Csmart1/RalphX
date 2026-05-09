@@ -43,9 +43,9 @@ const techStack = [
     link: "https://tailwindcss.com",
   },
   {
-    name: "JavaScript",
-    image: "https://cdn.worldvectorlogo.com/logos/javascript-1.svg",
-    link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+    name: "Next.js",
+    image: "https://cdn.worldvectorlogo.com/logos/next-js.svg",
+    link: "https://nextjs.org/",
   },
   {
     name: "HTML",
