@@ -6,20 +6,27 @@ function Hero() {
   return (
     <section
       id="home"
-      className="min-h-[85vh] flex flex-col justify-between px-10 scroll-mt-24"
+      className="min-h-[85vh] flex flex-col justify-between pt-10 px-6 md:px-10 scroll-mt-24"
     >
       <motion.div
         initial={{ opacity: 0, y: 40 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, ease: "easeOut" }}
-        className="flex flex-col md:flex-row items-center justify-between w-full max-w-6xl mx-auto gap-12"
+        className="
+    flex flex-col lg:flex-row
+    items-center
+    justify-between
+    w-full max-w-6xl mx-auto
+    gap-12 lg:gap-16
+  "
       >
-        <div className="max-w-xl">
+        {/* Text */}
+        <div className="w-full lg:w-1/2 max-w-xl text-left lg:text-left">
           <p className="text-purple-400 mb-4 tracking-widest uppercase text-sm">
             Full-Stack Developer
           </p>
 
-          <h1 className="text-4xl md:text-6xl font-semibold leading-[1.1] tracking-tight">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-semibold leading-[1.1] tracking-tight">
             Crafting clean and{" "}
             <span className="bg-gradient-to-r from-purple-400 to-cyan-400 bg-clip-text text-transparent">
               premium
@@ -34,7 +41,7 @@ function Hero() {
             drive performance and user engagement.
           </p>
 
-          <div className="mt-8 flex gap-4">
+          <div className="mt-8 flex flex-wrap justify-start lg:justify-start gap-4">
             <a
               href="#projects"
               className="px-6 py-3 bg-purple-500 rounded-md text-black font-medium hover:bg-purple-400 hover:scale-105 transition duration-300"
@@ -51,7 +58,8 @@ function Hero() {
           </div>
         </div>
 
-        <div className="relative mt-10 md:mt-0 flex-1 flex justify-center">
+        {/* Image */}
+        <div className="relative w-full lg:w-1/2 flex justify-center">
           <div className="absolute inset-0 bg-purple-600 opacity-20 blur-[100px] rounded-full"></div>
 
           <motion.img
@@ -59,7 +67,17 @@ function Hero() {
             transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
             src={ProfileImg}
             alt="Ralph"
-            className="relative w-full max-w-[500px] md:max-w-[600px] h-auto object-contain drop-shadow-2xl"
+            className="
+            relative
+            w-[280px]
+            sm:w-[340px]
+            md:w-[420px]
+            lg:w-full
+            max-w-[550px]
+            h-auto
+            object-contain
+            drop-shadow-2xl
+          "
           />
         </div>
       </motion.div>
